@@ -22,7 +22,7 @@ public class SplashScreenFragment extends Fragment {
     TextView introduction;
     Animation animation;
 
-    private int contador = 1;
+    private boolean status = false;
 
     public static SplashScreenFragment newInstance() {
         SplashScreenFragment activity = new SplashScreenFragment();
@@ -39,7 +39,7 @@ public class SplashScreenFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        if(contador == 1) {
+        if(status == false) {
             startAnimationLogo();
             startAnimationText();
             TimerTask task = new TimerTask() {
@@ -51,7 +51,7 @@ public class SplashScreenFragment extends Fragment {
 
             Timer timer = new Timer();
             timer.schedule(task, SPLASHDELAY);
-            contador++;
+            status = true;
         }
     }
 
