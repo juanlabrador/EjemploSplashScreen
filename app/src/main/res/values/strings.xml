@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EjemploSplashScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="label_welcome">¡Te damos la bienvenida!</string>
+    <string name="label_question_account">¿Ya tienes una cuenta?</string>
+    <string name="login">Inicia sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="introduction_app">Desliza el dedo para obtener información acerca de Dropbox</string>
+
+    <string name="first">Cuando capturas fotos, Dropbox las protege</string>
+    <string name="second">Accede a los documentos de tu computadora estés donde estés</string>
+    <string name="third">Tus archivos, estés donde estés</string>
+
+</resources>
